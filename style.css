@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main-section {
+  height: 90vh;
+  width: 100vw;
+  background-image: url("http://gdurl.com/p4Hq");
+  color: #F5FFFF;
+  font-size: 45px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+
+}
+
+#main-title {
+  font-family: "Major Mono Display", "monospace";
+  text-align: center;
+  padding-top: 18%;
+  color: white;
+  animation: fadeIn 1s ease-in both;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+
+
+
+#submit{
+  position: relative;
+  top: 100px;
+  left: 270px;
+  
+   
+}
+
+.description{ 
+  font-family: "Nunito Sans";
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.jetblack {
+  background-color: #282828;
+  width: 100%;
+}
+
+.sub-header {
+ font-family: "Major Mono Display";
+ color: #ff1302;
+ margin: auto;
+ text-align: center; 
+ font-size: 225%;
+ 
+}
+
+
+
+.gray {
+  background-color: #363636;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  background-color: #282828;
+  height: 70px;
+  text-align: center;
+  z-index: 9999;
+  position: fixed;
+  border-bottom: solid 1px #AF00FF;
+}
+
+nav a {
+  margin-left: 1vw;
+  font-family: "Cutive Mono";
+  color: #AF00FF;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  
+  
+}
+
+#basicshead {
+text-align: center;
+color:#ff1302;
+font-family: "Major Mono Display", monospace;
+}
+
+
+#margin {
+  padding-top: 20px;
+  margin-left: 10px;
+}
+
+#logo {
+  background-color: #AF00FF;
+  border-radius: 50px;
+  height: 50px;
+  width: 60px;
+  border: none !important;
+  float: left;
+  margin-left: 9%;
+  margin-top: -10px !important;
+  margin-right: none;
+}
+
+#guide {
+  margin-left: -125px;
+}
+
+#pass {
+  margin-right: 9%;
+}
+
+#encryption {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.list {
+   position: relative;
+   left:30%;
+   color:white;
+  font-family: "Nunito Sans";
+  font-size:18px;
+}
+
+.otherList{
+  position: relative;
+   left:70%;
+   color:white;
+  font-family: "Nunito Sans";
+  font-size:18px;
+}
+
+.sub-header2 {
+ font-family: "Major Mono Display", "monospace";
+ color: #ff1302;
+ margin: auto;
+ text-align: center; 
+ font-size: 150%;
+}
+
+footer{
+  background-color: #282828;
+  height:70px;
+  text-align: center;
+}
+
+button {
+  height: 60px;
+  width: 90px;
+  font-family: "Major Mono Display";
+  background-color: #ff1302;
+  font-weight: bold;
+  text-align: center;
+}
+
+.description1{ 
+  font-family: "Nunito Sans";
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 20px;
+}
+
+.green {
+  background-color: rgb(0, 190, 57);
+}
+
+
+
+.orderedlist{
+  color: ffffff;
+  font-family: "Major Mono Display";
+
+  
+}
+
+#ordered{
+   font-family: "Nunito Sans";
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+
+
+}
